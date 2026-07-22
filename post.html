@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Input POST Page</title>
+    <link rel="stylesheet" href="post.css">
+</head>
+<body>
+
+    <div class="logo">
+      <form id="logo" method="post" action="#">
+        <p>LUCKY DRAW !!</p>  
+              <img src="./icons8-dollar-coin.gif" alt="not found" sizes="10px" align="left">
+
+      </form>  
+
+    </div>
+    <div class="container">
+        <h1>Enter a Number</h1>
+        <form id="numberForm" method="post" action="#">
+            <label for="userNumber">Type a number:</label>
+            <input type="number" id="userNumber" name="userNumber" required placeholder="Enter a number">
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div id="result" class="result"></div>
+         <!-- <div id="celebration">
+  🎈🎉 Correct! 🎉🎈
+</div> -->
+
+<span id="correctMsg" class="hidden">
+    🎈🎉 Correct! 🎉🎈
+</span>
+    </div>
+   
+
+
+    <script src="post.js"></script>
+        
+    </script>
+
+</body>
+</html>
